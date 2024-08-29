@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(93, 217, 221);
+}
+form{
+    margin-left:40%;
+    margin-top:20%;
+    margin-right:42%;
+    border-style:none;
+    background-color: bisque;
+    border-radius: 5px;
+}
+#Username{
+    margin:5px;
+}
+#Password{
+    margin:5px;
+}
+#bday{
+    margin:5px;
+}
+#Email{
+    margin:5px
+}
+#number{
+    margin:5px;
+}
+#quantity{
+    margin:5px
+}
+#status{
+    margin-top:10px;
+    margin-bottom:5px;
+}

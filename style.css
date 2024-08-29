@@ -1,0 +1,54 @@
+body{
+    background-color: beige;
+}
+header{
+    background-color: lightcyan;
+    font: large salmon;
+    text-align: center;
+    border-style: dotted;
+    border-radius: 5%;
+}
+footer{
+    background-color: lightcyan;
+}
+#ctf{
+    background-color: pink;
+}
+#ulog{
+    background-color: gray;
+    border:2px solid;
+}
+ol{
+    background-color: lightpink;
+    border:2px solid;
+}
+dl{
+    background-color: tomato;
+    border:2px solid
+}
+table{
+    background-color: aliceblue;
+}
+#markt{
+    background-color: lightgreen;
+}
+p{
+    text-align:left;
+}
+#phed{
+    text-align: center;
+}
+#logo{
+    margin-left: 40%;
+}
+main{
+    border:none lightblue;
+    border-radius:20px;
+}
+form{
+    margin-left: 30%;
+    margin-right: 55%;
+    border-style:none;
+    border-radius: 5%;
+    background-color: lightblue;
+}

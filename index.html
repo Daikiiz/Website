@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A website title</title>
+        <link rel="icon" type="image/jpg" href="Images/favicon.jpg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1><big>This is a colored header and it groups texts (i think) </big></h1>
+            <h1>Welcome! This is my first website! :D</h1>           
+            <p id="phed">
+                This website is also where I experiment on the codes I've learned
+            </p>
+        </header>
+
+        <main>
+        <h1>This is a big header</h1>
+        <h2>This is a lil less big header</h2>
+        <h3>This is a lil less big header</h3>
+        <h4>This is a small header</h4>
+        <h4>This is a tiny header</h4>
+        <hr>
+
+        <h3>Audio</h3>
+        <pre>
+            How do I put an audio on a website?
+            -It's easy! just follow these lines of codes</pre>
+            <h4>euphoria - Kendrick Lamar</h4>
+        <audio controls>
+            <source src="Audio/euphoria.mp3">
+        </audio>
+        <p>There, the code should work and play music!:D</p>
+        <br><hr>
+
+        <h3>Image</h3>
+        <pre>Now, I want to put an image file, how do i do it?
+            -It's easy! just follow these lines of codes again!
+        </pre>
+        <img id="logo" src="Images/Straw-Hat-Logo.png" alt="Pictures or Medias may not show without an internet or Im just stupid" height="200">
+        <br>
+        <p>There, the code should work, I hope.</p>
+        <br><hr>
+
+        <a href="euphoriap2.html">
+            <button style="font-size: 20px;" title="Goes to page 2 of this website which is a lyrics page" style="border-radius:30px;">Goes to somewhere</button>
+        </a><br><hr>
+
+        <h3>Videos</h3>
+        <pre>How about media or videos? how do i put a video file?
+            -It's also easy! it's almost exactly the same as the other files!
+            Just follow these lines of codes.
+        </pre>
+        <video src="Videos/kaiscare.mp4" controls></video>
+        <p>There, I hope the code works</p>
+        <hr><br>
+
+        <p id="ctf">These texts are colored????</p>
+        <p><mark id="markt">These texts are highlighted????</mark></p>
+        <h3>TEXT FORMATTING????</h3>
+        <p><b>>This is a wally text</b></p>
+        <p><i>This is a italic text <!-- spaghetti --></i></p>
+        <p><u>This is a underlined text</u></p>
+        <p><del>This is a dleted text</del></p>
+        <p><big>This is a big text</big></p>
+        <p><small>This is a smol text</small></p>
+        <p><sub>This is a subscript text</sub></p>
+        <p><sup>This is a superscript text</sup></p>
+        <p><tt>This is a monospaced text</tt></p>
+        <p><mark>This is a highlted tesxt</mark></p>
+        <hr><br>
+
+        <h2>LIST??!!</h2>
+        <h3>Unordered List below</h3>
+        <h4>Groceries</h4>
+        <ul id="ulog">
+            <li>Milk</li>
+            <li>Beans</li>
+            <li>Rice</li>
+            <li>Chicken Nuggies</li>
+            <li>Coffee Supplies</li>
+            <ul>
+                <li>Coffee Beans</li>
+                <li>Creamer</li>
+                <li>Sugar</li>
+                <li>Cups or Mugs</li>
+            </ul>
+        </ul>
+        <hr>
+
+        <h3>Ordered List below</h3>       
+        <h4>To do list</h4>
+        <ol>
+            <li>Wake up</li>
+            <li>Eat</li>
+            <li>Shower</li>
+            <li>Learn coding</li>
+            <li>Forget what you've learned</li>
+            <li>Sleep</li>
+            <li>Repeat</li>
+        </ol>
+        <hr>
+
+        <h3>Description List below</h3>
+        <h4>Stupid Description List</h4>
+        <dl>
+            <dt>Daryl</dt>
+            <dd>-Young, dumb, broke highschool kid</dd>
+            <dt>kumalala</dt>
+            <dd>savesta</dd>
+        </dl>
+        <hr><br>
+
+        <table>
+            <tr>
+                <th>Gaming</th>
+                <th>School</th>
+                <th>House</th>
+                <th>Outside</th>               
+            </tr>
+            <tr>
+                <td>2-5h</td>
+                <td>8h</td>
+                <td>12h</td>
+                <td>3-4h</td>
+            </tr>
+        </table>
+        <hr><br>   
+
+            <!-- yo im going insane rn with this lack of internet and my slow ass data provider T.T-->
+             <!-- bro i keep forgetting the correct tags!!!!! RAGHHHH!!!-->
+              <!-- i wanna do something bad for real--> 
+               
+               <h3>This is a basic form</h3>
+        <form action="backend.php" method="POST"> <!--no backend cs havent learned it yet-->
+            <label for="Username">Username</label>
+            <input id="Username" for="Username" type="username" placeholder="TheReal" minlength="5" maxlength="10" required><br>
+
+            <label for="Password">Password</label>
+            <input id="Password" for="Password" type="password" minlength="8" maxlength="10" required><br>
+
+            <label for="bday">Birthdate</label>
+            <input id="bday" type="date" required><br>
+
+            <label for="Email">Email</label>
+            <input id="Email" type="email" placeholder="emailplaceholder@real.com" required><br>
+
+            <label for="number">Phone num</label>
+            <input id="number" type="tel" pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}-[0-9]{3}" placeholder="12-34-5678-900"> <br>
+
+            <label for="quantity">Quantity</label>
+            <input id="quantity" type="number" min="0" max="10" value="1"><br>
+
+            <label for="language">Language:</label>
+
+            <label for="spanish">Spanish</label>
+            <input type="radio" id="spanish" value="spanish" name="language">
+            <label for="english">English</label>
+            <input type="radio" id="english" value="english" name="language"><br>
+
+            <label for="sex">Gay</label>
+            <select id="sex">
+                <option value="Paul">Paul</option>
+                <option value="Jared">Jared</option>
+            </select><br>
+
+           
+
+            <input type="submit"> <input type="reset"><br>            
+        </form>
+        <a href="form.html">
+            <button style="font-size: large;">TestForm</button>
+        </a>
+        </main>     
+
+        <footer>
+            <h1><big>yayah</big></h1>
+        </footer>
+                        
+    </body>    
+</html>
